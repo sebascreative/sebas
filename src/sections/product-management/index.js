@@ -6,7 +6,6 @@ import Vertical1Image from "./assets/vertical-1.jpg";
 import Horizontal3Image from "./assets/horizontal-3.jpg";
 import Horizontal4Image from "./assets/horizontal-4.jpg";
 import Vertical2Image from "./assets/vertical-2.jpg";
-import Styles from "./styles.module.css";
 
 export const ProductManagement = () => {
   return (
@@ -39,7 +38,7 @@ export const ProductManagement = () => {
             fromColor="rgba(177,172,172,1)"
             toColor="rgba(84,79,79,1)"
           >
-            <div className={Styles.imageContainer}>
+            <div className="grid gap-4 md:grid-cols-3 grid-cols-1">
               <img alt="Horizontal 1" src={Horizontal1Image} />
               <img alt="Horizontal 2" src={Horizontal2Image} />
               <img alt="Vertical 1" src={Vertical1Image} />
