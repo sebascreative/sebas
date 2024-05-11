@@ -2,15 +2,16 @@ import { GradientCard } from "../../components/gradient-card";
 import { SectionContainer } from "../../hoc/section-container";
 import Horizontal1Image from "./assets/horizontal-1.jpg";
 import Horizontal2Image from "./assets/horizontal-2.jpg";
-import Vertical1Image from "./assets/vertical-1.jpg";
 import Horizontal3Image from "./assets/horizontal-3.jpg";
 import Horizontal4Image from "./assets/horizontal-4.jpg";
+import Vertical1Image from "./assets/vertical-1.jpg";
 import Vertical2Image from "./assets/vertical-2.jpg";
+import Styles from './styles.module.css';
 
 export const ProductManagement = () => {
   return (
     <SectionContainer>
-      <div className="flex flex-col w-full min-h-full bg-[#201b1b] items-center py-16 text-white">
+      <div className={`flex flex-col w-full min-h-full bg-[#201b1b] items-center py-16 text-white ${Styles.backgroundGradient}`}>
         <div className="max-w-screen-lg gap-16 flex flex-col">
           <div className="flex flex-col border-white border border-x-0 border-y-2 text-center gap-2 py-4 w-full">
             <h1 className="uppercase text-4xl font-light">
