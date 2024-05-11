@@ -2,3 +2,18 @@
     background: rgb(115,111,110);
     background: radial-gradient(ellipse 100% 20%, rgba(115,111,110,1) 0%, rgba(32,27,27,1) 90%)
 }
+
+.imagesContainer {
+    grid-template-columns: 1fr 1fr max-content;
+}
+
+.horizontalImage {
+    height: 100%;
+    width: 115px;
+}
+
+@media (max-width: 640px) {
+    .imagesContainer {
+        grid-template-columns: 1fr ;
+    } 
+}

@@ -39,13 +39,13 @@ export const ProductManagement = () => {
             fromColor="rgba(177,172,172,1)"
             toColor="rgba(84,79,79,1)"
           >
-            <div className="grid gap-4 md:grid-cols-3 grid-cols-1">
+            <div className={`grid gap-4 ${Styles.imagesContainer}`}>
               <img alt="Horizontal 1" src={Horizontal1Image} />
               <img alt="Horizontal 2" src={Horizontal2Image} />
-              <img alt="Vertical 1" src={Vertical1Image} />
+              <img className={Styles.horizontalImage} alt="Vertical 1" src={Vertical1Image} />
               <img alt="Horizontal 3" src={Horizontal3Image} />
               <img alt="Horizontal 4" src={Horizontal4Image} />
-              <img alt="Vertical 2" src={Vertical2Image} height="146px" />
+              <img className={Styles.horizontalImage} alt="Vertical 2" src={Vertical2Image} height="146px" />
             </div>
           </GradientCard>
           <a
