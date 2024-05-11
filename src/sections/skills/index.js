@@ -1,3 +1,5 @@
+import { SectionContainer } from "../../hoc/section-container";
+
 export const Skills = () => {
-    return null;
+    return <SectionContainer></SectionContainer>;
 }

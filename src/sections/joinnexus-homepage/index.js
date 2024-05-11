@@ -1,3 +1,5 @@
+import { SectionContainer } from "../../hoc/section-container";
+
 export const JoinnexusHomepage = () => {
-    return null
+    return <SectionContainer></SectionContainer>;
 }
