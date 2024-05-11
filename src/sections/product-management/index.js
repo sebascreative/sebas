@@ -1,11 +1,11 @@
 import { GradientCard } from "../../components/gradient-card";
 import { SectionContainer } from "../../hoc/section-container";
-import Horizontal1Image from "./assets/horizontal-1.jpg";
-import Horizontal2Image from "./assets/horizontal-2.jpg";
-import Horizontal3Image from "./assets/horizontal-3.jpg";
-import Horizontal4Image from "./assets/horizontal-4.jpg";
-import Vertical1Image from "./assets/vertical-1.jpg";
-import Vertical2Image from "./assets/vertical-2.jpg";
+import Horizontal1Image from "./assets/horizontal-1.png";
+import Horizontal2Image from "./assets/horizontal-2.png";
+import Horizontal3Image from "./assets/horizontal-3.png";
+import Horizontal4Image from "./assets/horizontal-4.png";
+import Vertical1Image from "./assets/vertical-1.png";
+import Vertical2Image from "./assets/vertical-2.png";
 import Styles from './styles.module.css';
 
 export const ProductManagement = () => {
@@ -45,7 +45,7 @@ export const ProductManagement = () => {
               <img alt="Vertical 1" src={Vertical1Image} />
               <img alt="Horizontal 3" src={Horizontal3Image} />
               <img alt="Horizontal 4" src={Horizontal4Image} />
-              <img alt="Vertical 2" src={Vertical2Image} />
+              <img alt="Vertical 2" src={Vertical2Image} height="146px" />
             </div>
           </GradientCard>
           <a
