@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Bebetronic } from "./sections/bebetronic";
+import { InternautHomepage } from "./sections/internaut-homepage";
+import { JoinnexusHomepage } from "./sections/joinnexus-homepage";
+import { JoinnexusPlatform } from "./sections/joinnexus-platform";
+import { Presentation } from "./sections/presentation";
+import { ProductManagement } from "./sections/product-management";
+import { Skills } from "./sections/skills";
+import { Title } from "./sections/title";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Title />
+      <Presentation />
+      <Skills />
+      <JoinnexusPlatform />
+      <Bebetronic />
+      <JoinnexusHomepage />
+      <InternautHomepage />
+      <ProductManagement />
+    </main>
   );
 }
 
