@@ -1,4 +1,5 @@
 import { GradientCard } from "../../components/gradient-card";
+import { GradientContainer } from "../../components/gradient-container";
 import { SectionContainer } from "../../hoc/section-container";
 import Horizontal1Image from "./assets/horizontal-1.png";
 import Horizontal2Image from "./assets/horizontal-2.png";
@@ -11,10 +12,10 @@ import Styles from './styles.module.css';
 export const ProductManagement = () => {
   return (
     <SectionContainer>
-      <div className={`flex flex-col w-full min-h-full bg-[#201b1b] items-center py-16 text-white ${Styles.backgroundGradient}`}>
+      <GradientContainer color="#736F6E">
         <div className="max-w-screen-lg gap-16 flex flex-col">
           <div className="flex flex-col border-white border border-x-0 border-y-2 text-center gap-2 py-4 w-full">
-            <h1 className="uppercase text-4xl font-light">
+            <h1 className="uppercase text-6xl font-light">
               Product Management
             </h1>
             <p className=" text-xs mb-4">
@@ -36,8 +37,9 @@ export const ProductManagement = () => {
             </p>
           </div>
           <GradientCard
-            fromColor="rgba(177,172,172,1)"
-            toColor="rgba(84,79,79,1)"
+            fromColor="#B1ACAC"
+            midColor="#A09A9A"
+            toColor="#514C4C"
           >
             <div className={`grid gap-4 ${Styles.imagesContainer}`}>
               <img alt="Horizontal 1" src={Horizontal1Image} />
@@ -55,7 +57,7 @@ export const ProductManagement = () => {
             mail: yaletordesigner@gmail.com
           </a>
         </div>
-      </div>
+      </GradientContainer>
     </SectionContainer>
   );
 };

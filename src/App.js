@@ -10,7 +10,7 @@ import { Title } from "./sections/title";
 
 function App() {
   return (
-    <main>
+    <main className="bg-[#070202]">
       <Title />
       <Presentation />
       <Skills />
