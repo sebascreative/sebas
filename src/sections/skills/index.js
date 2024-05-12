@@ -1,6 +1,7 @@
 import { SectionContainer } from "../../hoc/section-container";
 import Wallpaper from "./assets/wallpaper.png";
 import Cross from "./assets/cross.png";
+import Styles from './index.module.css';
 
 export const Skills = () => {
   return (
@@ -13,7 +14,7 @@ export const Skills = () => {
       >
         <div className="relative">
           <img src={Cross} alt="Cross" className="absolute inset-0 m-auto md:rotate-0 rotate-45 ease-linear" />
-          <div className="flex flex-wrap max-w-screen-lg p-4">
+          <div className={`flex flex-wrap max-w-screen-lg p-4 ${Styles.text}`}>
             <div className="flex flex-col md:w-2/4 w-full items-center md:items-start mt-[-100px] md:mt-0 md:mb-20">
               <h2 className="text-2xl md:text-4xl font-semibold mb-2 md:mb-8">UX/UI</h2>
               <label>Figma</label>

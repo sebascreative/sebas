@@ -1,0 +1,5 @@
+.text label {
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 0.5px #8B7B7B;
+    font-size: 17px;
+}
