@@ -1,0 +1,13 @@
+.imagesContainer {
+    grid-template-columns: 1fr 1fr max-content max-content;
+}
+@media (max-width: 640px) {
+    .imagesContainer {
+        grid-template-columns: 1fr ;
+    } 
+
+    .horizontalImage {
+        height: auto;
+        width: 100%;
+    }
+}
