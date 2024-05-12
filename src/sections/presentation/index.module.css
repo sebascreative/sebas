@@ -1,0 +1,5 @@
+.hello {
+  text-shadow: 0 0 1em #57ab4c, 0 0 1em #57ab4c;
+  color: #57ab4c;
+  -webkit-text-stroke: 0.4px white;
+}
