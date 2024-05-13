@@ -20,7 +20,7 @@ export const Bebetronic = () => {
         }}
       >
         <div className="flex flex-col gap-32 items-center justify-center">
-          <h1 className="text-center text-white text-6xl font-light">
+          <h1 className="text-center text-white text-6xl font-light mt-16">
             BEBETRONIC GAME
           </h1>
 
