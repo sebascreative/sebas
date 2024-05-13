@@ -1,5 +1,13 @@
 .text label {
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke: 0.5px #8B7B7B;
-    font-size: 17px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.5px #8b7b7b;
+  font-size: 17px;
+}
+
+.skillsContainer label:hover {
+  text-shadow: 0 0 1em #57ab4c, 0 0 1em #57ab4c;
+  color: #57ab4c;
+  -webkit-text-stroke: 0.4px white;
+  cursor: pointer;
+  z-index: 10;
 }
