@@ -62,7 +62,7 @@ export const Bebetronic = () => {
             </GradientCard>
           </div>
 
-          <div className="flex gap-4 pb-16 flex-wrap justify-center">
+          <div className="flex gap-8 md:gap-4 pb-16 flex-wrap justify-center">
             <Button href="https://www.cosmopolitan.com/es/consejos-planes/familia-amigos/a33603454/juego-de-beber-online/">
               COSMOPOLITAN
             </Button>

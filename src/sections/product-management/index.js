@@ -14,11 +14,11 @@ export const ProductManagement = () => {
     <SectionContainer>
       <GradientContainer color="#736F6E">
         <div className="max-w-screen-lg gap-16 flex flex-col">
-          <div className="flex flex-col border-white border border-x-0 border-y-2 text-center gap-2 py-4 w-full">
-            <h1 className="uppercase text-6xl font-light">
+          <div className="flex flex-col border-white border border-x-0 border-y-2 text-center gap-2 py-4 w-full p-4">
+            <h1 className="uppercase text-2xl md:text-6xl font-light">
               Product Management
             </h1>
-            <p className=" text-xs mb-4">
+            <p className="text-xs mb-4">
               In this section, I am going to share the main projects where I
               have don product management and some information
             </p>
@@ -51,7 +51,7 @@ export const ProductManagement = () => {
             </div>
           </GradientCard>
           <a
-            className="font-bold text-2xl text-center"
+            className="font-bold text-xl md:text-2xl text-center"
             href="mailto: yaletordesigner@gmail.com"
           >
             mail: yaletordesigner@gmail.com

@@ -18,10 +18,10 @@ export const InternautHomepage = () => {
                         toColor="#143356"
                     >
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
-                            <img className="max-w-80 h-full" alt="Internaut page screenshot" src={Image1} />
-                            <img className="max-w-80 h-full" alt="Internaut page screenshot" src={Image2} />
-                            <img className="max-w-80 h-full" alt="Internaut page screenshot" src={Image3} />
-                            <img className="max-w-80 h-full" alt="Internaut page screenshot" src={Image4} />
+                            <img className="max-w-80 md:h-full" alt="Internaut page screenshot" src={Image1} />
+                            <img className="max-w-80 md:h-full" alt="Internaut page screenshot" src={Image2} />
+                            <img className="max-w-80 md:h-full" alt="Internaut page screenshot" src={Image3} />
+                            <img className="max-w-80 md:h-full" alt="Internaut page screenshot" src={Image4} />
                         </div>
                     </GradientCard>
                 </div>

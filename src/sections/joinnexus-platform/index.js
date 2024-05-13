@@ -22,12 +22,12 @@ export const JoinnexusPlatform = () => {
                             toColor="#2F0D50B2"
                         >
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                <img className="h-full" src={Image1} alt="Joinnexus screenshot" />
-                                <img className="h-full" src={Image2} alt="Joinnexus screenshot" />
-                                <img className="h-full" src={Image3} alt="Joinnexus screenshot" />
-                                <img className="h-full" src={Image4} alt="Joinnexus screenshot" />
-                                <img className="h-full" src={Image5} alt="Joinnexus screenshot" />
-                                <img className="h-full" src={Image6} alt="Joinnexus screenshot" />
+                                <img className="md:h-full" src={Image1} alt="Joinnexus screenshot" />
+                                <img className="md:h-full" src={Image2} alt="Joinnexus screenshot" />
+                                <img className="md:h-full" src={Image3} alt="Joinnexus screenshot" />
+                                <img className="md:h-full" src={Image4} alt="Joinnexus screenshot" />
+                                <img className="md:h-full" src={Image5} alt="Joinnexus screenshot" />
+                                <img className="md:h-full" src={Image6} alt="Joinnexus screenshot" />
                             </div>
                         </GradientCard>
                     </div>

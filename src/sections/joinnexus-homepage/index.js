@@ -28,7 +28,7 @@ export const JoinnexusHomepage = () => {
                             midColor="#160329"
                             toColor="#150524"
                         >
-                            <div className={`grid gap-16 ${Styles.imagesContainer}`}>
+                            <div className={`grid md:gap-16 ${Styles.imagesContainer}`}>
                                 <div className="flex flex-col">
                                     <img alt="joinnexus screenshot" src={Image11} />
                                     <img alt="joinnexus screenshot" src={Image12} />
