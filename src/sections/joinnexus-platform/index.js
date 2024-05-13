@@ -21,7 +21,7 @@ export const JoinnexusPlatform = () => {
                             midColor="#471677B2"
                             toColor="#2F0D50B2"
                         >
-                            <div className="grid grid-cols-3 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                 <img className="h-full" src={Image1} alt="Joinnexus screenshot" />
                                 <img className="h-full" src={Image2} alt="Joinnexus screenshot" />
                                 <img className="h-full" src={Image3} alt="Joinnexus screenshot" />

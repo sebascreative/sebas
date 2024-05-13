@@ -7,7 +7,7 @@ export const Skills = () => {
   return (
     <SectionContainer>
       <div
-        className="min-h-screen w-full text-white flex items-center justify-center"
+        className="min-h-screen w-full text-white flex items-center justify-center overflow-x-hidden"
         style={{
           background: `url(${Wallpaper})`,
         }}

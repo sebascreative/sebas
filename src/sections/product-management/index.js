@@ -26,7 +26,7 @@ export const ProductManagement = () => {
 
           <div className="flex flex-col text-center gap-4">
             <h1 className="text-4xl">Sales platform</h1>
-            <p className="text-left">
+            <p className="text-left p-4">
               Important project in which a platform was initially created to
               create order requests, with all the company s requirements. After
               this, portfolio information, sales reports such as sales in units
