@@ -22,7 +22,7 @@ export const Title = () => {
           <h2 className="text-white text-5xl md:text-7xl text-center font-medium">
             I do{" "}
             <ReactTyped
-              strings={["UX/UI", "project management"]}
+              strings={["UX/UI", "PRODUCT MANAGEMENT"]}
               typeSpeed={30}
               backSpeed={40}
               loop
