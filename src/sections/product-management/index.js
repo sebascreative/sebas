@@ -54,7 +54,7 @@ export const ProductManagement = () => {
             className="font-bold text-xl md:text-2xl text-center"
             href="mailto: yaletordesigner@gmail.com"
           >
-            mail: yaletordesigner@gmail.com
+            mail: jsebascreative@gmail.com
           </a>
         </div>
       </GradientContainer>
