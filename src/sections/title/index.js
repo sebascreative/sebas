@@ -1,6 +1,7 @@
-import Styles from './index.module.css';
+import Styles from "./index.module.css";
 import { SectionContainer } from "../../hoc/section-container";
 import Profile from "./assets/profile.png";
+import { ReactTyped } from "react-typed";
 
 export const Title = () => {
   return (
@@ -19,7 +20,13 @@ export const Title = () => {
             />
           </div>
           <h2 className="text-white text-5xl md:text-7xl text-center font-medium">
-            I do UX/UI
+            I do{" "}
+            <ReactTyped
+              strings={["UX/UI", "project management"]}
+              typeSpeed={30}
+              backSpeed={40}
+              loop
+            />
           </h2>
         </div>
       </div>
