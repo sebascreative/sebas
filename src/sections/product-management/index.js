@@ -20,7 +20,7 @@ export const ProductManagement = () => {
             </h1>
             <p className="text-xs mb-4">
               In this section, I am going to share the main projects where I
-              have don product management and some information
+              have done product management and some information
             </p>
           </div>
 
