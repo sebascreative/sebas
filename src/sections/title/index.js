@@ -7,7 +7,7 @@ export const Title = () => {
   return (
     <SectionContainer className="grid">
       <div style= {{background:`url("${background}")`}}className="h-full w-full flex items-center justify-center">
-        <div className="absolute top-4 left-9">
+        <div className="absolute top-9 left-9">
           <div className="flex gap-2">
             <img src={logo} className="w-32 h-32" alt="logo"></img>
             <div className="flex items-center justify-center">
