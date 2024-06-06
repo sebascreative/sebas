@@ -16,3 +16,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Link the Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Set Inter as the default font for the entire document */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Optionally, you can specify different styles for different elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    /* Add additional styling for headings if needed */
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    /* Add additional styling for paragraphs if needed */
+}
+
+/* Add more rules for other elements as necessary */
